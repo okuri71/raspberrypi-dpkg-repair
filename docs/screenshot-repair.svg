@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="404" viewBox="0 0 900 404" role="img" font-family="'JetBrains Mono','Fira Code','Cascadia Code',Consolas,'DejaVu Sans Mono',monospace">
+  <rect x="0" y="0" width="900" height="404" rx="12" fill="#1e1e2e" stroke="#313244" stroke-width="1.5"/>
+  <path d="M0 12a12 12 0 0 1 12-12h876a12 12 0 0 1 12 12v26H0z" fill="#313244"/>
+  <circle cx="22" cy="19" r="6" fill="#f38ba8"/>
+  <circle cx="42" cy="19" r="6" fill="#f9e2af"/>
+  <circle cx="62" cy="19" r="6" fill="#a6e3a1"/>
+  <text x="450.0" y="24" text-anchor="middle" fill="#cdd6f4" font-size="13" opacity="0.85">pi@raspberrypi: ~</text>
+  <rect x="1" y="38" width="898" height="365" fill="#181825"/>
+  <text x="18.0" y="70" fill="#a6e3a1" font-size="14" xml:space="preserve">$ </text>
+  <text x="34.8" y="70" fill="#cdd6f4" font-size="14" font-weight="700" xml:space="preserve">sudo fix-dpkg.sh</text>
+  <text x="18.0" y="92" fill="#94e2d5" font-size="14" xml:space="preserve">==&gt; </text>
+  <text x="51.6" y="92" fill="#cdd6f4" font-size="14" xml:space="preserve">Raspberry Pi detected: Raspberry Pi 4 Model B Rev 1.5</text>
+  <text x="18.0" y="114" fill="#94e2d5" font-size="14" xml:space="preserve">==&gt; </text>
+  <text x="51.6" y="114" fill="#cdd6f4" font-size="14" xml:space="preserve">checking for running apt/dpkg...</text>
+  <text x="18.0" y="136" fill="#94e2d5" font-size="14" xml:space="preserve">==&gt; </text>
+  <text x="51.6" y="136" fill="#cdd6f4" font-size="14" xml:space="preserve">neutralising rpi-connect postinst service-restart</text>
+  <text x="18.0" y="158" fill="#94e2d5" font-size="14" xml:space="preserve">==&gt; </text>
+  <text x="51.6" y="158" fill="#cdd6f4" font-size="14" xml:space="preserve">running repair in transient system unit fix-dpkg-1750000000</text>
+  <text x="18.0" y="180" fill="#cba6f7" font-size="14" xml:space="preserve">### step 1: dpkg --configure -a</text>
+  <text x="18.0" y="202" fill="#cba6f7" font-size="14" xml:space="preserve">### step 2: dpkg --configure --pending</text>
+  <text x="18.0" y="224" fill="#cba6f7" font-size="14" xml:space="preserve">### step 3: apt-get -f install</text>
+  <text x="18.0" y="246" fill="#cba6f7" font-size="14" xml:space="preserve">### step 4: pending triggers</text>
+  <text x="18.0" y="268" fill="#cba6f7" font-size="14" xml:space="preserve">### step 5: dpkg --configure -a (catch stragglers)</text>
+  <text x="18.0" y="290" fill="#cba6f7" font-size="14" xml:space="preserve">### verification: dpkg --audit</text>
+  <text x="18.0" y="312" fill="#a6e3a1" font-size="14" font-weight="700" xml:space="preserve">### VERDICT: OK - package database is consistent</text>
+  <text x="18.0" y="334" fill="#89b4fa" font-size="14" xml:space="preserve">==================== AFTER ====================</text>
+  <text x="18.0" y="356" fill="#cdd6f4" font-size="14" xml:space="preserve">--- 0 package(s) not fully installed ---</text>
+  <text x="18.0" y="378" fill="#a6e3a1" font-size="14" font-weight="700" xml:space="preserve">OK - package database is consistent.</text>
+</svg>

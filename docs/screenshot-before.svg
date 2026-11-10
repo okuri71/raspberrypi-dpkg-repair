@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="558" viewBox="0 0 900 558" role="img" font-family="'JetBrains Mono','Fira Code','Cascadia Code',Consolas,'DejaVu Sans Mono',monospace">
+  <rect x="0" y="0" width="900" height="558" rx="12" fill="#1e1e2e" stroke="#313244" stroke-width="1.5"/>
+  <path d="M0 12a12 12 0 0 1 12-12h876a12 12 0 0 1 12 12v26H0z" fill="#313244"/>
+  <circle cx="22" cy="19" r="6" fill="#f38ba8"/>
+  <circle cx="42" cy="19" r="6" fill="#f9e2af"/>
+  <circle cx="62" cy="19" r="6" fill="#a6e3a1"/>
+  <text x="450.0" y="24" text-anchor="middle" fill="#cdd6f4" font-size="13" opacity="0.85">pi@raspberrypi: ~</text>
+  <rect x="1" y="38" width="898" height="519" fill="#181825"/>
+  <text x="18.0" y="70" fill="#a6e3a1" font-size="14" xml:space="preserve">$ </text>
+  <text x="34.8" y="70" fill="#cdd6f4" font-size="14" font-weight="700" xml:space="preserve">sudo dpkg --audit</text>
+  <text x="18.0" y="92" fill="#f9e2af" font-size="14" xml:space="preserve">The following packages are only half configured, probably due to problems</text>
+  <text x="18.0" y="114" fill="#f9e2af" font-size="14" xml:space="preserve">configuring them the first time.  The configuration should be retried using</text>
+  <text x="18.0" y="136" fill="#f9e2af" font-size="14" xml:space="preserve">dpkg --configure &lt;package&gt; or the configure menu option in dselect:</text>
+  <text x="18.0" y="158" fill="#f38ba8" font-size="14" xml:space="preserve"> rpi-connect          Raspberry Pi Connect - Access your Raspberry Pi from anyw</text>
+  <text x="18.0" y="202" fill="#f9e2af" font-size="14" xml:space="preserve">The following packages have been triggered, but the trigger processing</text>
+  <text x="18.0" y="224" fill="#f9e2af" font-size="14" xml:space="preserve">has not yet been done.  Trigger processing can be requested using</text>
+  <text x="18.0" y="246" fill="#f9e2af" font-size="14" xml:space="preserve">dselect or dpkg --configure --pending (or dpkg --triggers-only):</text>
+  <text x="18.0" y="268" fill="#6c7086" font-size="14" xml:space="preserve"> ...</text>
+  <text x="18.0" y="312" fill="#a6e3a1" font-size="14" xml:space="preserve">$ </text>
+  <text x="34.8" y="312" fill="#cdd6f4" font-size="14" font-weight="700" xml:space="preserve">dpkg -l | grep '^iU' | head -5</text>
+  <text x="18.0" y="334" fill="#cdd6f4" font-size="14" xml:space="preserve">iU  chromium              1:155.0.8059.79-1~deb13u1+rpt1  arm64</text>
+  <text x="18.0" y="356" fill="#cdd6f4" font-size="14" xml:space="preserve">iU  libpipewire-0.3-0t64  1.4.2-1+rpt4                    arm64</text>
+  <text x="18.0" y="378" fill="#cdd6f4" font-size="14" xml:space="preserve">iU  vlc-plugin-base:arm64 1:3.0.24-0+deb13u1+rpt2         arm64</text>
+  <text x="18.0" y="400" fill="#cdd6f4" font-size="14" xml:space="preserve">iU  wf-panel-pi           1.42                            arm64</text>
+  <text x="18.0" y="422" fill="#6c7086" font-size="14" xml:space="preserve">...</text>
+  <text x="18.0" y="466" fill="#a6e3a1" font-size="14" xml:space="preserve">$ </text>
+  <text x="34.8" y="466" fill="#cdd6f4" font-size="14" font-weight="700" xml:space="preserve">sudo dpkg --configure -a</text>
+  <text x="18.0" y="488" fill="#6c7086" font-size="14" xml:space="preserve">... rpi-connect banner ...</text>
+  <text x="18.0" y="510" fill="#f38ba8" font-size="14" xml:space="preserve">connection to raspberrypi closed.</text>
+  <text x="18.0" y="532" fill="#f38ba8" font-size="14" xml:space="preserve">rpi-connect is still half-configured.</text>
+</svg>
