@@ -216,7 +216,8 @@ chmod +x "$WORKDIR/worker.sh"
 run_detached() {
     local script=$1
     if command -v systemd-run >/dev/null 2>&1; then
-        local unit="fix-dpkg-$(date +%s)"
+        local unit
+        unit="fix-dpkg-$(date +%s)"
         log "running repair in transient system unit $unit"
         systemd-run --quiet --wait --collect \
             --unit="$unit" \
