@@ -5,6 +5,7 @@
 failing.**
 
 [![Shell: Bash](https://img.shields.io/badge/shell-bash-4EAA25?logo=gnubash&logoColor=white)](#requirements)
+[![CI](https://github.com/okuri71/raspberrypi-dpkg-repair/actions/workflows/ci.yml/badge.svg)](https://github.com/okuri71/raspberrypi-dpkg-repair/actions/workflows/ci.yml)
 [![License: GPL-3.0](https://img.shields.io/badge/license-GPL--3.0-blue.svg)](LICENSE)
 [![Platform: Raspberry Pi OS](https://img.shields.io/badge/platform-Raspberry%20Pi%20OS-C51A4A?logo=raspberrypi&logoColor=white)](#requirements)
 
